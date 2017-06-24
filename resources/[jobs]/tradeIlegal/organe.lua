@@ -106,10 +106,10 @@ Citizen.CreateThread(function()
                   TriggerEvent("player:getQuantity", 13)
                   Wait(100)
                   Citizen.Wait(1)
-                  if weedcount < 30 then
+                  if weedcount < 3 then
                           ShowMsgtime.msg = '~g~ Prendre ~b~un organe'
                           ShowMsgtime.time = 250
-                          TriggerEvent("vmenu:anim" ,"pickup_object", "pickup_low")
+                          -- TriggerEvent("vmenu:anim" ,"pickup_object", "pickup_low")
                           Wait(2500)
                           ShowMsgtime.msg = '~g~ + 1 ~b~organe'
                           ShowMsgtime.time = 150

@@ -19,17 +19,21 @@ inv_array = {
 }
 
 inv_array_illlegal = {
-  {name="Cannabis", id=4, price=100, value=0},
-  {name="Cannabis roulé", id=5, price=100, value=0},
-	{name="Feuille Coka", id=6, price=100, value=0},
-	{name="Coka 50%", id=7, price=100, value=0},
-	{name="Coka", id=8, price=100, value=0},
-	{name="Ephedrine", id=9, price=100, value=0},
-	{name="Matière illégale 33%", id=10, price=100, value=0},
-	{name="Matière illégale 66%", id=11, price=100, value=0},
-	{name="Meth", id=12, price=100, value=0},
-	{name="Organe", id=13, price=100, value=0},
-	{name="Organe emballé", id=14, price=100, value=0},
-	{name="Organe analysé", id=15, price=100, value=0},
-	{name="Organe livrable", id=16, price=100, value=0},
+    {name="Cannabis", id=4, price=100, value=0},
+    {name="Cannabis roulé", id=5, price=100, value=0},
+    {name="Feuille Coca", id=6, price=100, value=0},
+    {name="Feuille Coca 1/2", id=7, price=100, value=0},
+    {name="Cocaïne", id=8, price=100, value=0},
+    {name="Ephedrine", id=9, price=100, value=0},
+    {name="Ephedrine 1/3", id=10, price=100, value=0},
+    {name="Ephedrine 2/3", id=11, price=100, value=0},
+    {name="Meth", id=12, price=100, value=0},
+    {name="Organe", id=13, price=100, value=0},
+    {name="Organe emballé", id=14, price=100, value=0},
+    {name="Organe analysé", id=15, price=100, value=0},
+    {name="Organe livrable", id=16, price=100, value=0},
+}
+
+inv_array_permis = {
+    {name="Permis de conduire", id=28, price=100, value=0},
 }

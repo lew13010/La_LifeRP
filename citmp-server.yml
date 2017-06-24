@@ -19,33 +19,41 @@ AutoStartResources:
     #- pooljob
     - es_garages
     - es_weashop
+    - es_bank
+    - es_holdup
     - jobs-police
     - vdk_call
     - salaire
     - banking
     - foodhud
-    #- lscustoms
+    - lscustoms
     - loadingscreen
     - tradeIlegal
     - interiors
     - FBI
     - Sheriff
     - LSPD
+    - Panto
     - mine
     - Wrapper
     - ccreation
     - Organe
     - carwash
     - emergency
+    - admin_menu
+    #- pol718
+    - deleteveh
+    #- taxi
+    - Driver
     - es_afterStart
     #GARDER ES_AFTERSTART DERNIER MERCI LEL
 
 
 # do change
-RconPassword: 112233
+RconPassword: mplokijn
 
 # configure this, please
-Hostname: La Life Open Source
+Hostname: Wesh Ma Gueule
 
 # don't change this, it'll cause your server to be unlisted
 Game: GTA5

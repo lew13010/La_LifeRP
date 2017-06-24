@@ -63,6 +63,7 @@ AddEventHandler('vmenu:updateUser', function(openMenu)
 	userInfos.Loaded = true
 	-- Envoie des données et Ouverture du Menu...
 	TriggerClientEvent("vmenu:setUser", source, userInfos)
+	TriggerClientEvent("MenuAdminAccess", source, userInfos)
 end)
 
 RegisterServerEvent('es:getVehPlate_s')
