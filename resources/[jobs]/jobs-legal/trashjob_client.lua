@@ -92,6 +92,7 @@ Citizen.CreateThread(function()
 		Citizen.Wait(0)
 		if IsControlJustPressed(1,38) and inrangeofbin3 then
 			TriggerServerEvent("poleemploi:getjobs")
+			TriggerServerEvent("job:getCash_s")
 			Wait(100)
 			if myjob == 3 then
 				if ArgentJoueur >= 3000 then
@@ -132,7 +133,8 @@ Citizen.CreateThread(function()
 						end)
 						inrangeofbin3 = false
 						inrange3 = false
-					elseif onJobLegal == 1 then
+					elseif onJobLegal == 1 and EndingDay == false then
+						EndingDay = true
 						TriggerServerEvent("job:addMoney", 3000)
 						binEnding()
 					end
